@@ -1,34 +1,77 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <title>My Music Encoding Project</title>
-    <meta charset="utf-8">
-    <meta name="description" content="My project">
-    <meta name="author" content="Me">
-    <link rel="stylesheet" href="css/style.css" media="all" />
-    <script src="js/verovio-toolkit.js"></script>
-    <script src="js/utils.js"></script>
-  </head>
+	<head>
+		<title>My Music Encoding Project</title>
+		<meta charset="utf-8">
+		<meta name="description" content="This is my project for the Music Curation and Analytics course at the Univeristy of Glasgow 2018">
+		<meta name="author" content="Kieran Thomson">
+		<link rel="stylesheet" href="css/style.css" media="all" />
+	</head>
 
-  <body>
+	<nav>
+	<a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Home-icon.svg/240px-Home-icon.svg.png" alt="Home Icon" style="float:right;width:35px;height:35px;"></a>
+	</nav>
+	
+	<body>	
+		<h1>My Music Encoding Project</h1>
+		<h1>Project Dataset: Adele</h1>
 
-    <div id="content">
-      <!-- ADD YOUR HTML CONTENT HERE! -->
-      <h1>My project</h1>
-    </div>
+		<p>For the theme of my dataset, I choose the music of artist Adele. Through lab tasks and extra work I have accumulated a wide variety 
+		of transcribed scores, MEI files, metadata and interesting analysis all available below.</p>
+		<hr />
+		
+		<h2>Notated Data</h2>
+		<p>To access the notated pieces that I transcribed, listen to the exported WAV files (where available) and download the MusicXML or MuseScore files, click on the links below:</p>
+		<ul>
+			<li><a href="hello.html" name="link to Hello score">Hello</a></li>
+			<li><a href="hello-live.html" name="link to Hello (Live Version) score">Hello (Live Version)</a></li>
+			<li><a href="SFTTR.html" name="link to Set Fire To The Rain score">Set Fire To The Rain</a></li>
+			<li><a href="RITD.html" name="link to Rolling In The Deep score">Rolling In The Deep</a></li>
+			<li><a href="RITD-live.html" name="link to Rolling In The Deep (Live Version) score">Rolling In The Deep (Live Version)</a></li>
+			<li><a href="WWWY.html" name="link to When We Were Young score">When We Were Young</a></li>
+		</ul>
+		<hr />
+		
+		<h2>Analysis</h2>
+		<p>To accompany my transcribed documents, I carried out some analysis on the pieces using jSymbolic. Below you can access the raw CSV data
+		or you can access an annotated, edited Excel file where I put some of the analysis into context and made some comparisons between the songs.</p>
+		<ul>
+			<li>Beats Histogram Analysis:</li>
+				<ul>
+					<li><a href="data/jSymbolic/BeatsHistogram_Raw.csv" name="link to raw Beats Histogram CSV file">Raw</a></li>
+					<li><a href="data/jSymbolic/BeatsHistogram_Annotated.xlsx" name="link to annotated Beats Histogram Excel file">Annotated</a></li>
+				</ul>
+			<li>Interesting Features Analysis:</li>
+				<ul>
+					<li><a href="data/jSymbolic/InterestingFeatures_Raw.csv" name="link to raw Interesting Features CSV file">Raw</a></li>
+					<li><a href="data/jSymbolic/InterestingFeatures_Annotated.xlsx" name="link to annotated Interesting Features Excel file">Annotated</a></li>
+				</ul>
+			<li>Using the Python library "music21", I created piano roll and histogram graphics for all four pieces that can be viewed <a href="music21images.html" name="link to Piano Roll and Histograms">here</a>.</li>
+		</ul>
+		<hr />
+		
+		<h2>Other Material</h2>
+		<p>Part of this project involved using computer tools to investigate music as sound and digital audio. This involved tasks such as creating metadata, spectrograms, chromagrams and investigating similarity and computer transcription.
+		Below is evidence of my work for each of these lab tasks (due to copyright limitations of Adele's music in acoustic form, these tasks were completed with music from freemusicarchive.org):</p>
+		<ul>
+			<li>In <b>Week 8's</b> task, I identified the most important technical / non-technical metadata for three pieces of music sourced online and created spectrograms and waveform images for each song. I also then compared these two visualisations
+			in order to evaluate advantages of time-frequency analysis over waveform based analysis. I have compiled my metadata, images and files in <a href="data/Week8Task.docx">this</a> document.</li>
+			<li>In <b>Week 9's</b> task, I created Spectrograms, Mel Frequency Cepstral Coefficient and Chromagrams for three tracks. The second part of the task involved me comparing raw features in Python to produce and compare histograms for each song.
+			The images, raw data and CSV files can be accessed <a href="Week9.html">here</a>.</li>
+			<li>In <b>Week 10's</b> task, I firstly created a similarity matrix for a selection of songs from different genres:<br />
+			<img src="data/SimilarityMatrix.png" alt="Similarity Matrix diagram for 10 different songs"><br/>
+			<ul>
+			<li>I then sourced a MuseScore composition for ABBA's "Dancing Queen" to test out the accuracy of automatic, computer transcription. My results and analysis can be found <a href="data/Lab10_Transcription.docx" name="link to transcriptio analysis"> here</a></li>
+			<li>As an extra bit of analysis, using Python I made a features plot for the four Adele songs I transcribed which plots all the notes present against the time. I also created  Mean Chroma Feature graphs showing the number of notes present at the time 456.
+			These visualisations can be seen <a href="FeaturesPlot.html">here.</a>
+			</li> 
+			
 
-    <!-- **** DO NO EDIT BELOW THIS LINE **** -->
-    <!-- * **** **** **** **** **** **** **** -->
-    <div id="controls">
-      <button id="prev"> &lt; </button>
-      <button id="next"> &gt; </button>
-    </div>
-    <div id="score">
-      <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
-    </div>
-    <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
-    <script src="js/index.js"></script>
-  </body>
+		</ul>
+		<hr />
 
+
+ 
+</body>
 </html>
