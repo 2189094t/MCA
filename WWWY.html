@@ -26,9 +26,10 @@
 			<h1>My Music Encoding Project</h1>
 			<h1>Project Dataset: Adele</h1>
 			<h3>Metadata</h3>
+			<p id="meta"></p>		
 			<h4>When We Were Young - Adele</h4>
 			<p align="center"><a href="data/musicXML_MuseSCoreFiles/When_We_Were_Young.musicxml">MusicXML file</a> | <a href="data/musicXML_MuseSCoreFiles/When_We_Were_Young.mscz">MuseScore file</a></p>
-			<p id="meta"></p>
+
 		</div>
 
 		<!-- **** DO NO EDIT BELOW THIS LINE **** -->
@@ -62,6 +63,9 @@
 							/* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
 							document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
 							*/
+							document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='writer1']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='writer1']").textContent + "</p></a>"
+							document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='writer2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='writer2']").textContent + "</p></a>"
+							document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='producer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='producer']").textContent + "</p></a>"
 						}
 					}
 				}
