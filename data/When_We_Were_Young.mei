@@ -29,9 +29,9 @@
             <titleStmt>
               <title>When We Were Young</title>
               <respStmt>
-                <persName role="writer" authURI="https://en.wikipedia.org/wiki/When_We_Were_Young_(Adele_song)" authority="Wikipedia" xml:id="writer1">Adele Adkins</persName>
-                <persName role="writer" authURI="https://en.wikipedia.org/wiki/When_We_Were_Young_(Adele_song)" authority="Wikipedia" xml:id="writer2">Tobias Jesso Jr.</persName>
-                <persName role="producer" authURI="https://en.wikipedia.org/wiki/When_We_Were_Young_(Adele_song)" authority="Wikipedia" xml:id="producer">Ariel Rechtshaid</persName>
+                <persName role="writer" authURI="https://musicbrainz.org/release/4cc465ca-079b-49d1-9f31-126f2e30eb52" authority="MusicBrainz" xml:id="writer1">Adele Adkins</persName>
+                <persName role="writer" authURI="https://musicbrainz.org/release/4cc465ca-079b-49d1-9f31-126f2e30eb52" authority="MusicBrainz" xml:id="writer2">Tobias Jesso Jr.</persName>
+                <persName role="producer" authURI="https://musicbrainz.org/release/4cc465ca-079b-49d1-9f31-126f2e30eb52" authority="MusicBrainz" xml:id="producer">Ariel Rechtshaid</persName>
               </respStmt>
             </titleStmt>
             <pubStmt>

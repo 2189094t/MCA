@@ -29,9 +29,9 @@
             <titleStmt>
               <title>Rolling In The Deep</title>
               <respStmt>
-                <persName role="writer" authURI="https://en.wikipedia.org/wiki/Rolling_in_the_Deep" authority="Wikipedia" xml:id="writer1">Adele Adkins</persName>
-                <persName role="writer" authURI="https://en.wikipedia.org/wiki/Rolling_in_the_Deep" authority="Wikipedia" xml:id="writer2">Paul Epworth</persName>
-                <persName role="producer" authURI="https://en.wikipedia.org/wiki/Rolling_in_the_Deep" authority="Wikipedia" xml:id="producer">Paul Epworth</persName>
+                <persName role="writer" authURI="https://musicbrainz.org/release/79ef6f41-51a3-3ee5-8b2f-7347de023e30" authority="MusicBrainz" xml:id="writer1">Adele Adkins</persName>
+                <persName role="writer" authURI="https://musicbrainz.org/release/79ef6f41-51a3-3ee5-8b2f-7347de023e30" authority="MusicBrainz" xml:id="writer2">Paul Epworth</persName>
+                <persName role="producer" authURI="https://musicbrainz.org/release/79ef6f41-51a3-3ee5-8b2f-7347de023e30" authority="MusicBrainz" xml:id="producer">Paul Epworth</persName>
               </respStmt>
             </titleStmt>
             <pubStmt>
